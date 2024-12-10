@@ -6,7 +6,7 @@
 
 class TourOptimizer {
 public:
-    virtual std::vector<int> optimize(const std::vector<Point>& points, const std::vector<std::vector<int>>& graph) = 0;
+    virtual std::vector<int> optimize(const int start_node, const int end_node) = 0;
     virtual ~TourOptimizer() = default;
 };
 

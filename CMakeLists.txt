@@ -11,8 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(SOURCES
     main.cpp
     Point.cpp
-    NearestNeighborOptimizer.cpp
-    TwoOptOptimizer.cpp
+    FinalTourOptimizer.cpp
     utils.cpp
 )
 
@@ -20,8 +19,7 @@ set(SOURCES
 set(HEADERS
     Point.hpp
     TourOptimizer.hpp
-    NearestNeighborOptimizer.hpp
-    TwoOptOptimizer.hpp
+    FinalTourOptimizer.hpp
     utils.hpp
 )
 
